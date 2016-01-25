@@ -1,6 +1,6 @@
 Feature: FizzBuzz
 
-  Scenario: Normal Numbers Return Same Number
+  Scenario Outline: Normal Numbers Return Same Number
     Given I have started the game
      When I enter <number>
      Then <result> is returned
