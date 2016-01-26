@@ -19,3 +19,11 @@ You can run any file, method or scenario directly from your IDE. If you prefer t
 vendor/bin/phpunit tests/
 vendor/bin/behat
 ```
+
+You can run Selenium tests with the following commands:
+
+```bash
+php -S localhost:8888
+java -jar selenium-server-standalone-2.49.1.jar
+vendor/bin/behat
+```
